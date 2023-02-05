@@ -1,7 +1,7 @@
 <div class="footer">
     <div class="footer-article padding-top-bottom">
         <div class="wrap-content d-flex flex-wrap align-items-start justify-content-between">
-            <div class="footer-news">
+            <div class="footer-news animate__ animate__zoomIn wow animated">
                 <div class="d-flex align-items-center justify-content-start">
                     <img class="lazy" onerror="this.src='<?= THUMBS ?>/35x47x1/assets/images/noimage.png';" data-src="<?= THUMBS ?>/35x47x1/<?= UPLOAD_PHOTO_L . $logo['photo'] ?>" alt="logo" title="logo" />
                     <p class="name-company-footer mt-3 ml-2 site-me"><?= $footer['name' . $lang] ?></p>
@@ -17,7 +17,7 @@
                     </div>
                 <?php } ?>
             </div>
-            <div class="footer-news">
+            <div class="footer-news animate__ animate__zoomIn wow animated">
                 <p class="footer-title"><?= chinhsach ?></p>
                 <ul class="footer-ul">
                     <?php foreach ($policy as $v) { ?>
@@ -25,7 +25,7 @@
                     <?php } ?>
                 </ul>
             </div>
-            <div class="footer-news">
+            <div class="footer-news animate__ animate__zoomIn wow animated">
                 <p class="footer-title">Fanpage facebook</p>
                 <?= $addons->set('fanpage-facebook', 'fanpage-facebook', 2); ?>
             </div>

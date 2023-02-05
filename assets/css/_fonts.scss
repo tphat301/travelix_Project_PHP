@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* Huong dan du dung before Font Awesome 5
+.login::before { font-family: "Font Awesome 5 Free"; font-weight: 900; content: ""; } 
+*/
+
+@font-face {
+    font-family: 'RBI';
+    src: url('../fonts/Roboto-BoldItalic.woff');
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'RR';
+    src: url('../fonts/Roboto-Regular.woff');
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'RB';
+    src: url('../fonts/Roboto-Bold.woff');
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'RM';
+    src: url('../fonts/Roboto-Medium.woff');
+    font-display: block;
+}
