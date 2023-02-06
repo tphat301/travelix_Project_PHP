@@ -11,3 +11,7 @@
 ::1()--update--news([["","id","=","15"]]) (21:15:30 05/02/2023)
 ::1()--query--tables(delete from table_user_online where time < 1675605933) (21:15:33 05/02/2023)
 ::1()--query--tables(delete from table_user_online where time < 1675606172) (21:19:32 05/02/2023)
+::1()--query--tables(delete from table_user_online where time < 1675606407) (21:23:27 05/02/2023)
+::1()--query--tables(delete from table_user_online where time < 1675606413) (21:23:33 05/02/2023)
+::1()--update--product([["","id","=","46"]]) (21:23:33 05/02/2023)
+::1()--query--tables(delete from table_user_online where time < 1675606419) (21:23:39 05/02/2023)
